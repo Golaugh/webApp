@@ -1,12 +1,8 @@
-# Colin's Bookstore
+# Bookstore Web Application
 
-A web-based bookstore application developed as part of Virginia Tech's Web Application Development course. This e-commerce platform allows users to browse and purchase books across different categories like Best Sellers, New Releases, and Top Rated selections.
+A full-stack e-commerce web application for a bookstore that allows users to browse books by categories, manage shopping carts, and complete purchases.
 
-The application features a modern, responsive interface where customers can:
-- Browse books by category
-- Add books to their shopping cart
-- Manage cart quantities
-- Complete purchases through a secure checkout process
+## Project Overview
 
 This project is a modern web-based bookstore application built with React frontend and Java REST API backend. It provides a seamless shopping experience with features like category browsing, cart management, and secure checkout process.
 
