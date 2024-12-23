@@ -1,0 +1,56 @@
+/* Banner styling */
+.banner > i {
+    font-size: 36px;
+    rotate: 30deg;
+    margin: auto 30px;
+}
+.banner {
+    width: 600px;
+    max-width: 100%;
+    background-color: #e9ed48;
+    color: #FF0000;
+    padding: 15px;
+    margin: 50px auto 24px;
+    border: 1px solid #8D722D;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 70px;
+}
+
+.banner > .cta > a {
+    color: #FF0000;
+}
+
+.banner:hover {
+    cursor: pointer;
+    background: #FF0000;
+    color: #F0F34F;
+}
+
+.banner:hover a{
+    color: #F0F34F;
+}
+
+/* Suggested Reading Heading */
+.suggested-reading {
+    width: 97%;
+    height: 56px;
+    font-family: 'Anonymous Pro', monospace;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #8D722D;
+}
+
+.suggested-reading > span {
+    color: #6E460A;
+    font-size: 32px;
+    font-weight: 50;
+}
+
+.suggested-reading > i {
+    font-size: 38px;
+    color: #DB00FF;
+    margin-right: 5px;
+}

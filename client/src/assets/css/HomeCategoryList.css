@@ -1,0 +1,40 @@
+.home-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.home-list-li{
+    text-align: center;
+    cursor: pointer;
+}
+
+.home-list-div {
+    padding: 0.5em 0;
+    background: rgba(0, 0, 0, 0.5); /* last # is percent opacity */
+    color: white;
+    transform: translateY(-2.25em);
+    margin-bottom: -2em;
+}
+
+/* Main container styling */
+.container {
+    padding: 15px;
+    background-color: #E9E9E9;
+}
+
+/* Flexbox layout for book listings */
+.book-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+@media (max-width: 800px) {
+    .book-list {
+        max-width: 250px;
+    }
+}

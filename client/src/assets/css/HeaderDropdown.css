@@ -1,0 +1,80 @@
+/* Category styling */
+.category {
+    position: relative;
+}
+
+/* Category dropdown button and icon */
+.category-dropdown {
+    margin-left: 30px;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 30px;
+    height: 32px;
+    width: 154px;
+    border: 1px solid white;
+    font-size: 16px;
+    font-family: 'Anonymous Pro', monospace;
+    background-color: #6b4a23;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: relative; /* Added position relative for dropdown */
+}
+
+.category-dropdown:hover {
+    color: #F0F34F;
+}
+
+.category > i {
+    position: absolute;
+    font-size: 20px;
+    top: 6px;
+    right: 10px;
+    color: white;
+    padding-right: 10px;
+}
+
+.category > .fa-caret-up {
+    display: none;
+}
+
+.category:hover .fa-caret-up {
+    display: block;
+}
+
+.category:hover .fa-caret-down {
+    display: none;
+}
+
+.category > ul {
+    display: none;
+    position: absolute;
+    color: #6b4a23;
+    width: 154px;
+    padding-left: 30px;
+    z-index: 1;
+}
+
+.category:hover ul {
+    display: block;
+}
+
+.category > ul > li {
+    width: 154px;
+    height: 32px;
+    color: white;
+    font-size: 16px;
+    padding-top: 7px;
+    padding-left: 10px;
+    background-color: #6b4a23;
+    border: 1px solid white;
+    text-decoration: none;
+    display: block;
+}
+
+.category > ul > li:hover {
+    color: #6b4a23;
+    font-weight: bold;
+    border: 2px solid #F0F34F;
+}

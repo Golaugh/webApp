@@ -1,0 +1,28 @@
+DELETE FROM book;
+ALTER TABLE book AUTO_INCREMENT = 1001;
+
+DELETE FROM category;
+ALTER TABLE category AUTO_INCREMENT = 1001;
+
+INSERT INTO `category` (`name`) VALUES ('Best Sellers'),('New Releases'),('Top Rated'),('Old Fashioned');
+
+INSERT INTO `book` (title, author, description, price, rating, isPublic, isFeatured, category_id) VALUES ('Goonies, Los', 'James Kahn', '2019. Stella Parker has the life she''s always wanted: a loving husband, two happy children that she gave up her thriving law career to raise, and a beautiful house in the tony suburbs of...', 58.00, 3.6, FALSE, FALSE, 1001);
+INSERT INTO `book` (title, author, description, price, rating, isPublic, isFeatured, category_id) VALUES ('Holes', 'Louis Sachar', 'You let them back in. You shouldn''t have... Young couple Charlie and Eve can''t believe the killer deal they got on an old house deep in the mountains. One day, a man knocks on the door...', 0.99, 3.8, TRUE, FALSE, 1001);
+INSERT INTO `book` (title, author, description, price, rating, isPublic, isFeatured, category_id) VALUES ('The Giver', 'Lois Lowry', 'She thought the murders had stopped. She was wrong. The instant New York Times bestseller and a Sunday Times Thriller of the Year, soon to be a major TV series, developed by Emma...', 0.99, 4.1, TRUE, FALSE, 1001);
+INSERT INTO `book` (title, author, description, price, rating, isPublic, isFeatured, category_id) VALUES ('Hatchet', 'Gary Paulsen', 'It''s every parent''s nightmare. Your happy, funny, innocent son commits a terrible crime: murdering a complete stranger. You don''t know who. You don''t know why. You only know your...', 0.99, 2.5, TRUE, FALSE, 1001);
+
+INSERT INTO `book` (title, author, description, price, rating, isPublic, isFeatured, category_id) VALUES ('Expiration Dates', 'Rebecca Serle', 'Daphne Bell believes the universe has a plan in store for her. Ever since she was young, whenever she met a new guy, Daphne would find a slip of paper with exactly how long...', 14.00, 3.3, TRUE, FALSE, 1002);
+INSERT INTO `book` (title, author, description, price, rating, isPublic, isFeatured, category_id) VALUES ('Belle', 'Eden Francis Compton', 'Although this is just a novel, it is inspired by a true story, BELLE is the dark, comedic tale of one of America''s most prolific female serial killers...', 19.10, 3.4, FALSE, FALSE, 1002);
+INSERT INTO `book` (title, author, description, price, rating, isPublic, isFeatured, category_id) VALUES ('None of this is true', 'Lisa Jewell', 'Celebrating her forty-fifth birthday at her local pub, popular podcaster Alix Summers crosses paths with an unassuming woman called Josie Fair. Josie, it turns out, is also...', 11.25, 3.9, TRUE, FALSE, 1002);
+INSERT INTO `book` (title, author, description, price, rating, isPublic, isFeatured, category_id) VALUES ('This is not a Vampire Story', 'Simon Doyle', 'Victor Callahan holds a secret as ancient as the shadows. But can he keep it from Lakeshore Manor''s oldest resident? THIS IS NOT A VAMPIRE STORY weaves a tale of timeless...', 13.99, 3.7, FALSE, FALSE, 1002);
+
+
+INSERT INTO `book` (title, author, description, price, rating, isPublic, isFeatured, category_id) VALUES ('The God of the Woods', 'Liz Moore', 'A NEW YORK TIMES BESTSELLER WINNER OF JIMMY FALLON''S SUMMER READS BOOK CLUB SELECTED FOR BARACK OBAMA''S SUMMER 2024 READING LIST...', 18.35, 4.1, FALSE, FALSE, 1003);
+INSERT INTO `book` (title, author, description, price, rating, isPublic, isFeatured, category_id) VALUES ('1984', 'George Orwell', '''O''Brien! They''ve got you too!'' ''They got me a long time ago.'' Winston Smith is in prison, found guilty of Thoughtcrimes against Big Brother. As part of his reconstruction...', 4.90, 4.3, TRUE, FALSE, 1003);
+INSERT INTO `book` (title, author, description, price, rating, isPublic, isFeatured, category_id) VALUES ('Fahrenheit 451', 'Ray D Bradbury', 'This hauntingly prophetic novel centres around a not-too-distant future where happiness is allocated on a TV screen, individuals and scholars are outcasts and books are burned...', 3.00, 4.0, TRUE, FALSE, 1003);
+INSERT INTO `book` (title, author, description, price, rating, isPublic, isFeatured, category_id) VALUES ('Lord of the Flies', 'William Golding', 'William Golding''s Lord of the Flies is a dystopian classic: ''exciting, relevant and thought-provoking'' (Stephen King). When a group of schoolboys are stranded ...', 2.99, 4.8, TRUE, FALSE, 1003);
+
+INSERT INTO `book` (title, author, description, price, rating, isPublic, isFeatured, category_id) VALUES ('The Housemaid', 'Freida Mcfadden', 'Every day I clean the Winchesters'' beautiful house top to bottom. I collect their daughter from school. And I cook a delicious meal for the whole family before heading up to eat alone in my...',6.48, 4.4, TRUE, FALSE, 1004);
+INSERT INTO `book` (title, author, description, price, rating, isPublic, isFeatured, category_id) VALUES ('Vegetarian', 'Han Kang', 'Copyright date found on back jacket flap...', 64.97, 4.8, FALSE, FALSE, 1004);
+INSERT INTO `book` (title, author, description, price, rating, isPublic, isFeatured, category_id) VALUES ('Never Lie', 'Freida McFadden', 'Newlyweds Tricia and Ethan are searching for the house of their dreams. But when they visit the remote manor that once belonged to Dr. Adrienne Hale, a renowned psychiatrist who vanished...', 11.84, 4.8, TRUE, FALSE, 1004);
+INSERT INTO `book` (title, author, description, price, rating, isPublic, isFeatured, category_id) VALUES ('The Inmate', 'Freida McFadden', 'There are three rules Brooke Sullivan must follow as a new nurse practitioner at a men''s maximum-security prison: 1) Treat all prisoners with respect; 2) Never reveal any personal...',11.84, 4.5, TRUE, FALSE, 1004);

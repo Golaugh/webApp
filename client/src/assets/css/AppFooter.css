@@ -1,0 +1,63 @@
+/* Footer styling */
+.footer {
+    height: 68px;
+    background-color: #6b4a23;
+    padding: 10px 23px;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer > .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.footer > .links > a > i {
+    font-size: 54px;
+    color: white;
+    margin-right: 16px;
+}
+
+.footer span {
+    display: inline;
+    width: 500px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer > .footer-info {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 774px;
+}
+
+.footer-info > .contact {
+    font-size: 38px;
+    padding-left: 25px;
+}
+
+.footer-info > .copyright {
+    font-size: 15px;
+    padding-left: 79px;
+}
+
+.footer-info .contact-us:hover {
+    color: #F0F34F;
+    cursor: pointer;
+}
+
+.footer-info .directions:hover {
+    color: #F0F34F;
+    cursor: pointer;
+}
+
+.footer > .links > a > i:hover {
+    color: #F0F34F;
+    cursor: pointer;
+}

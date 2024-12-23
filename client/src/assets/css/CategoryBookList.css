@@ -1,0 +1,57 @@
+/* Category Main Setting */
+.category-main {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Right-sec Global Setting */
+.right-sec {
+    position: relative;
+    right: 0;
+    float: right;
+    width: 85%;
+}
+
+/* Suggested Reading Heading */
+.selected-reading {
+    width: 97%;
+    height: 58px;
+    font-family: 'Anonymous Pro', monospace;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #8D722D;
+}
+
+.selected-reading > span {
+    color: #6E460A;
+    font-size: 32px;
+    font-weight: 50;
+}
+
+.selected-reading > i {
+    font-size: 38px;
+    color: #ff002f;
+    margin-right: 16px;
+}
+
+/* Book container styling */
+.book-container {
+    padding: 16px;
+    margin-left: 18px;
+    margin-top: 4px;
+    background-color: #E9E9E9;
+}
+
+/* Flexbox layout for book listings */
+.book-lists {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1400px) {
+    .book-lists {
+        min-width: 1200px;
+        flex-direction: column;
+    }
+}
